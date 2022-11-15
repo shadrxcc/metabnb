@@ -1,12 +1,11 @@
 import React from 'react'
-import Header from './header'
-//import Landing from './landing'
+import Herosection from './herosection';
+import Home from '../pages/home';
 
 function App() {
   return (
     <>
-      <Header />
-     
+     <Home />
     </>
   );
 }
