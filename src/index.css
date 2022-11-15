@@ -7,6 +7,11 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  margin: 0;
+  padding: 0;
+}
+
 .navlink {
   text-decoration: none;
 }
@@ -148,6 +153,10 @@ color: white;
     height: 54px;
     width: 346px;
     
+}
+
+#sponsors {
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 }
 
 @media (max-width: 280px) {
