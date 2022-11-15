@@ -1,54 +1,43 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import logo from "../assets/logo.svg";
 import { Link } from "react-router-dom";
 import navLinks from "./navlinks";
-//import MenuIcon from "@mui/icons-material/Menu";
-//import CloseIcon from "@mui/icons-material/Close";
-//import { Icon } from '@iconify/react';
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 
-class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      clicked: false,
-    };
-  }
+const Header = () => {
+  const [Mobile, setMobile] = useState(false);
 
-  handleClick = () => {
-    this.setState({ clicked: true });
-  };
+  return (
+    <header>
+      <Link id="navlink" className="sublink" to="/">
+        <img src={logo} id="metabnb_logo" alt="metamask logo"></img>
+      </Link>
 
-  render() {
-    return (
-      <header>
-        <div>
-          <Link id="navlink" className="sublink" to="/">
-            <img src={logo} id="metabnb_logo" alt="metamask logo"></img>
-          </Link>
-          </div>
-
-            <div className="sub">
-              {navLinks.map((link, index) => {
-                return (
-                  <Link
-                    key={index}
-                    id={link.id}
-                    className={link.class}
-                    to={link.path}
-                  >
-                    {link.name}
-                  </Link>
-                );
-              })}
-            </div>
-
-            <div>
-              <button>Connect wallet</button>
-            </div>
-
-      </header>
-    );
-  }
-}
+      <ul
+        className={Mobile ? "nav-menu active" : "nav-menu"}
+        onClick={() => setMobile(false)}
+      >
+        {navLinks.map((link, index) => {
+          return (
+            <li key={index}>
+              <Link
+                key={index}
+                id={link.id}
+                className={link.class}
+                to={link.path}
+              >
+                {link.name}
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+      <button className="menu-icon" onClick={() => setMobile(!Mobile)}>
+        {Mobile ? <CloseIcon /> : <MenuIcon />}
+      </button>
+    </header>
+  );
+};
 
 export default Header;

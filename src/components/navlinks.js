@@ -26,6 +26,13 @@ const navLinks = [
     class: "navlink",
     id: "route",
   },
+
+  {
+    name: "Connect Wallet",
+    path: "/",
+    class: "navlinkbtn",
+    id: "connect_btn",
+  },
 ];
 
-export default navLinks
+export default navLinks;

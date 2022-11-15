@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   font-family: 'Red Rose', cursive;
   font-style: normal;
+  overflow-x: hidden;
 }
 
 .navlink {
@@ -13,37 +14,192 @@ body {
 header {
   display: flex;
   align-items: center;
-  position: fixed;
+  position: sticky;
   width: 100%;
   padding-top: 15px;
-  justify-content: space-around
-}
-
-.sub {
-    
+  justify-content: space-around;
+  background: white;
 }
 
 a.navlink {
-    text-decoration: none;
-    font-style: normal;
-    padding: 0 24px;
-    line-height: 25px;
-    color: #434343;
+  text-decoration: none;
+  font-style: normal;
+  padding: 0 24px;
+  line-height: 25px;
+  color: #434343;
+  font-size: 20px;
 }
 
-a#route {
+a.navlinkbtn {
+  text-decoration: none;
+  font-style: normal;
+  padding: 0 24px;
+  line-height: 25px;
+}
+
+a.navlink:hover {
+  color: #A02279;
+  transition: all 0.2s ease-in;
 }
 
 img#metabnb_logo {
-    width: 170px;
-    height: 36.67px;
+  width: 170px;
+  height: 36.67px;
 }
 
-button {
-    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
-    border-radius: 10px;
-    border: 0;
-    color: white;
-    padding: 9px 25px;
-    font-family: 'Red Rose', cursive;
+#connect_btn {
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  padding: 9px 25px;
+  font-family: 'Red Rose', cursive;
+  margin-left: 5em;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 24px;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+}
+
+.menu-icon {
+  display: none;
+  border: none;
+  text-decoration: none;
+  font-size: 20px;
+  background: none;
+  color: #A02279;
+}
+
+@media (max-width: 280px) {
+  .nav-menu.active {
+    left: -8%;
+  }
+
+  .nav-menu {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    justify-content: normal;
+    align-items: center;
+    padding-left: 0.7em;
+  }
+
+  img#metabnb_logo {
+    width: 147px;
+    height: 36.67px;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    left: -110%;
+    top: 100%;
+    opacity: 1;
+    transition: all 0.3s ease;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px
+  }
+
+  #connect_btn {
+    margin: auto;
+  }
+
+  a.navlink {
+    padding: 0 0;
+  }
+
+
+  .nav-menu.active {
+    background-color: white;
+    left: -10%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    padding-block-end: 3em;
+    padding-block-start: 1em;
+  }
+
+  .navlink {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .menu-icon {
+    position: absolute;
+    display: block;
+    right: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  header {
+    justify-content: normal;
+    align-items: center;
+    padding-left: 0.7em;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 104%;
+    position: absolute;
+    left: -110%;
+    top: 100%;
+    opacity: 1;
+    transition: all 0.3s ease;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px
+  }
+
+  #connect_btn {
+    margin: auto;
+  }
+
+  a.navlink {
+    padding: 0 0;
+  }
+
+
+  .nav-menu.active {
+    background-color: white;
+    left: -10%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    padding-block-end: 3em;
+    padding-block-start: 1em;
+  }
+
+  .navlink {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .menu-icon {
+    position: absolute;
+    display: block;
+    right: 20px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .nav-menu {
+    gap: 6px;
+  }
+
+  a.navlink {
+    font-size: 15px;
+  }
 }
