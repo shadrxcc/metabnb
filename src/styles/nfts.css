@@ -1,0 +1,26 @@
+.metabnb {
+font-weight: 700;
+line-height: 60px;
+color: white;
+}
+
+#nfts {
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+border: 1px solid #000000;
+}
+
+.bnbtxt {
+    font-weight: 400;
+font-size: 18px;
+line-height: 35px;
+/* or 194% */
+
+
+/* White lin */
+
+background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
