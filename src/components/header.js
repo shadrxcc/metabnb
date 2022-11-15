@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import navLinks from "./navlinks";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+//import { Icon } from '@iconify/react';
 
 const Header = () => {
   const [Mobile, setMobile] = useState(false);
@@ -33,7 +34,7 @@ const Header = () => {
           );
         })}
       </ul>
-      <button className="menu-icon" onClick={() => setMobile(!Mobile)}>
+      <button className="mobile-menu-icon" onClick={() => setMobile(!Mobile)}>
         {Mobile ? <CloseIcon /> : <MenuIcon />}
       </button>
     </header>

@@ -14,7 +14,7 @@ body {
 header {
   display: flex;
   align-items: center;
-  position: sticky;
+  position: fixed;
   width: 100%;
   padding-top: 15px;
   justify-content: space-around;
@@ -66,7 +66,7 @@ img#metabnb_logo {
   justify-content: end;
 }
 
-.menu-icon {
+.mobile-menu-icon {
   display: none;
   border: none;
   text-decoration: none;
@@ -135,7 +135,7 @@ img#metabnb_logo {
     display: table;
   }
 
-  .menu-icon {
+  .mobile-menu-icon {
     position: absolute;
     display: block;
     right: 20px;
@@ -187,7 +187,7 @@ img#metabnb_logo {
     display: table;
   }
 
-  .menu-icon {
+  .mobile-menu-icon {
     position: absolute;
     display: block;
     right: 20px;
