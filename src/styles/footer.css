@@ -1,0 +1,19 @@
+#footer {
+    background: #1D1D1E;
+    color: white;
+}
+
+.footer-links {
+    font-style: normal;
+    font-weight: 400;
+font-size: 14px;
+line-height: 35px;
+color: #F1F3F9;
+}
+
+h5 {
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+}
