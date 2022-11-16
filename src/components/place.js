@@ -26,7 +26,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={five} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -46,7 +45,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={six} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -66,7 +64,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={seven} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -86,7 +83,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={eight} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -106,7 +102,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={one} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -126,7 +121,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={two} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -146,7 +140,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={three} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -166,7 +159,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={four} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -186,7 +178,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={ten} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -206,7 +197,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={eleven} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -226,7 +216,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={twelve} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -246,7 +235,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={thirteen} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -266,7 +254,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={fourteen} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -286,7 +273,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={fifteen} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -306,7 +292,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={sixteen} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
@@ -326,7 +311,6 @@ function Place() {
         <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={nine} className="card-img-top" alt="hello"></img>
-            <img src={love} className="love" alt="love-icon"></img>;
             <div className="card-body">
               <div className="d-flex justify-content-between">
                 <p className="crdt">Desert king</p>
