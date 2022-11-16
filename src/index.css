@@ -160,15 +160,15 @@ input::placeholder {
 
 .settingsbtn {
   border: 1px solid #B4B4B4;
-    border-radius: 8px;
-    background-color: #FFFFFF;
-    height: 48px;
-    width: 15%;
-    padding-right: 20px;
-    margin-right: 15px;
-    margin-top: -10px;
-    text-align: left;
-    padding-left: 20px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  height: 48px;
+  width: 15%;
+  padding-right: 20px;
+  margin-right: 15px;
+  margin-top: -10px;
+  text-align: left;
+  padding-left: 20px;
 }
 
 #sponsors {
@@ -180,7 +180,7 @@ input::placeholder {
     left: -8%;
   }
 
-.settingsbtn {
+  .settingsbtn {
     margin: auto;
   }
 
