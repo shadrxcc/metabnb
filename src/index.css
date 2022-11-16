@@ -180,6 +180,10 @@ input::placeholder {
     left: -8%;
   }
 
+.settingsbtn {
+    margin: auto;
+  }
+
   .nav-menu {
     width: 90%;
   }
@@ -224,7 +228,6 @@ input::placeholder {
   a.navlink {
     padding: 0 0;
   }
-
 
   .nav-menu.active {
     background-color: white;
@@ -325,6 +328,15 @@ input::placeholder {
 
   .searchbtn {
     width: 38.5%
+  }
+
+  .locations {
+    display: none;
+  }
+
+  .settingsbtn {
+    width: 90%;
+    margin: auto;
   }
 }
 
