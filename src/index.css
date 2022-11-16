@@ -213,6 +213,11 @@ input::placeholder {
     box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px
   }
 
+  img.love {
+    left: 318px;
+    top: 26px;
+  }
+
   #connect_btn {
     margin: auto;
   }
@@ -302,6 +307,9 @@ input::placeholder {
     padding: 0 0;
   }
 
+  img.love {
+        left: 316px;
+  }
 
   .nav-menu.active {
     background-color: white;
@@ -376,6 +384,10 @@ input::placeholder {
   #description {
     width: 636px;
     height: 102px;
+  }
+
+  img.love {
+    left: 250px;
   }
 }
 
