@@ -175,6 +175,28 @@ input::placeholder {
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 }
 
+.love {
+  position: absolute;
+ width: 24px;
+    height: 24px;
+    left: 340px;
+    top: 36px;
+}
+
+@media (min-width: 393px) and (max-width: 413px) {
+  .love {
+   left: 329px;;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 376px) {
+  .love {
+   left: 286px;;
+  }
+}
+
+
+
 @media (max-width: 280px) {
   .nav-menu.active {
     left: -8%;
@@ -213,11 +235,6 @@ input::placeholder {
     box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px
   }
 
-  img.love {
-    left: 318px;
-    top: 26px;
-  }
-
   #connect_btn {
     margin: auto;
   }
@@ -228,6 +245,7 @@ input::placeholder {
 
   .settingsbtn {
     width: 90%;
+    margin: auto;
   }
 
   a.navlink {
@@ -307,8 +325,8 @@ input::placeholder {
     padding: 0 0;
   }
 
-  img.love {
-        left: 316px;
+ .love {
+        left: 330px;
   }
 
   .nav-menu.active {
