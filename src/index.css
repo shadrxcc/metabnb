@@ -331,3 +331,9 @@ input::placeholder {
     height: 102px;
   }
 }
+
+a.location {
+  text-decoration: none;
+  color: black;
+  overflow-x: scroll;
+}
