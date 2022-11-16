@@ -152,6 +152,25 @@ input::placeholder {
 
 }
 
+.locations {
+  text-decoration: none;
+  color: #434343;
+  font-size: 20px;
+}
+
+.settingsbtn {
+  border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    height: 48px;
+    width: 15%;
+    padding-right: 20px;
+    margin-right: 15px;
+    margin-top: -10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
 #sponsors {
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 }
@@ -194,6 +213,14 @@ input::placeholder {
     margin: auto;
   }
 
+  .locations {
+    display: none;
+  }
+
+  .settingsbtn {
+    width: 90%;
+  }
+
   a.navlink {
     padding: 0 0;
   }
@@ -226,8 +253,16 @@ input::placeholder {
     flex-direction: column-reverse;
   }
 
+  .row.align-items-center.px-5.py-5 {
+    flex-direction: column-reverse;
+  }
+
   .search {
     border-radius: 8px 8px 8px 8px;
+    width: 100%;
+  }
+
+  button#learn-more {
     width: 100%;
   }
 
@@ -326,7 +361,7 @@ input::placeholder {
     bottom: 10px;
   }
 
-  #descripttion {
+  #description {
     width: 636px;
     height: 102px;
   }

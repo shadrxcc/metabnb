@@ -1,32 +1,43 @@
 import React from "react";
 import locationName from "./filtermap";
 import { Link } from "react-router-dom";
-import settings from '../assets/settings.svg'
+import settings from "../assets/settings.svg";
 
 const Filter = () => {
   return (
     <div>
-      <div className="d-flex align-items-center justify-content-evenly">
-        {locationName.map((location, index) => {
-          return (
-            <Link
-              key={index}
-              id={location.id}
-              className={location.class}
-              to={location.path}
-            >
-              {location.name}
-            </Link>
-          );
-          })}
-          <div className="d-flex justify-content-between">
-          <div>
-            <h5 className="">Location</h5>
-          </div>
-          <div>
-            <img src={settings} className="w-75" alt="settings icon"></img>
-          </div>
-        </div>
+      <div id="filter" className="d-flex m-auto justify-content-between">
+        <Link className="locations" to="/" id="">
+          Restaurant
+        </Link>
+        <Link className="locations" to="/" id="">
+          Cottage
+        </Link>
+        <Link className="locations" to="/" id="">
+          Castle
+        </Link>
+        <Link className="locations" to="/" id="">
+          fantastic city
+        </Link>
+        <Link className="locations" to="/" id="">
+          Beach
+        </Link>
+        <Link className="locations" to="/" id="">
+          Cabins
+        </Link>
+        <Link className="locations" to="/" id="">
+          Carbins
+        </Link>
+        <Link className="locations" to="/" id="">
+          Off-grid
+        </Link>
+        <Link className="locations" to="/" id="">
+          Farm
+        </Link>
+        <button className="settingsbtn">
+          Location
+          <img src={settings} className="img-fluid float-end" alt="settings icon"></img>
+        </button>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ const Nfts = () => {
   return (
     <div id="nfts">
       <div className="row align-items-center px-5 py-5">
-        <div className="col-sm-6">
+        <div className="col-sm-6 py-4">
           <h2 className="metabnb fs-1">Metabnb NFTs</h2>
           <p className="bnbtxt text-white">
             Discover our NFT gift cards collection. Loyal <br /> customers gets
@@ -17,7 +17,7 @@ const Nfts = () => {
             Learn more
           </button>
         </div>
-        <div className="col-sm-6 m-auto">
+        <div className="col-sm-6 py-4 m-auto">
           <img
             src={clusterednft}
             alt="clustered nfts"

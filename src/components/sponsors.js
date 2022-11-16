@@ -5,7 +5,7 @@ import opensea from "../assets/OPENSEA.svg";
 
 const Sponsors = () => {
   return (
-    <div className="text-center" id="sponsors">
+    <div className="text-center my-5" id="sponsors">
       <div className="row">
         <div className="col-md">
           <img

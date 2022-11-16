@@ -22,7 +22,7 @@ function Place() {
   return (
     <div className="container-fluid w-100">
       <div className="row row-cols-8">
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={five} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -41,7 +41,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={six} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -60,7 +60,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={seven} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -79,7 +79,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={eight} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -98,7 +98,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={one} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -117,7 +117,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={two} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -136,7 +136,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={three} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -155,7 +155,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={four} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -174,7 +174,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={ten} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -193,7 +193,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={eleven} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -212,7 +212,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={twelve} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -231,7 +231,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={thirteen} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -250,7 +250,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={fourteen} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -269,7 +269,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={fifteen} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -288,7 +288,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={sixteen} className="card-img-top" alt="hello"></img>
             <div className="card-body">
@@ -307,7 +307,7 @@ function Place() {
           </span>
         </div>
 
-        <div className="col-lg-3 col-md-6 p-4">
+        <div className="col-lg-3 col-md-6 p-2">
           <span className=" card crd">
             <img src={nine} className="card-img-top" alt="hello"></img>
             <div className="card-body">

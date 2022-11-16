@@ -13,7 +13,7 @@ import '../styles/card.css'
 function Community() {
   return (
     <>
-      <div className="container-fluid w-100">
+      <div className="container-fluid py-5">
         <h2 className="community-text text-center">Inspiration for your next adventure</h2>
         <div className="row row-cols-8">
           <div className="col-lg-3 col-md-6 p-4">
