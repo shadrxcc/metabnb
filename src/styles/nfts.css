@@ -22,5 +22,13 @@ background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-text-fill-color: transparent;
+}
+
+#learn-more {
+    border: none;
+    background-color: #FFFFFF;
+    color: #A02279;
+    border-radius: 8px;
+    height: 48px;
+    width: 40%;
 }

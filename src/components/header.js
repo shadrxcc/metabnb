@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import navLinks from "./navlinks";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import Modal from "./modal";
 //import { Icon } from '@iconify/react';
 
 const Header = () => {
@@ -33,7 +34,16 @@ const Header = () => {
             </li>
           );
         })}
+        <button
+          className="navlinkbtn"
+          id="connect_btn"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Connect Wallet
+        </button>
       </ul>
+      
       <button className="mobile-menu-icon" onClick={() => setMobile(!Mobile)}>
         {Mobile ? <CloseIcon /> : <MenuIcon />}
       </button>

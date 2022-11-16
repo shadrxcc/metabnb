@@ -13,6 +13,7 @@ const Nfts = () => {
             amazing gift cards which are <br /> traded as NFTs. These NFTs gives
             our customer <br /> access to loads of our exclusive services.
           </p>
+          <button id="learn-more" className="mt-3">Learn more</button>
         </div>
         <div className="col-sm-6 m-auto">
           <img

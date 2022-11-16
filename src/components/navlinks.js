@@ -8,7 +8,7 @@ const navLinks = [
 
   {
     name: "Place to stay",
-    path: "/",
+    path: "/places",
     class: "navlink",
     id: "route",
   },
@@ -25,13 +25,6 @@ const navLinks = [
     path: "/",
     class: "navlink",
     id: "route",
-  },
-
-  {
-    name: "Connect Wallet",
-    path: "/",
-    class: "navlinkbtn",
-    id: "connect_btn",
   },
 ];
 

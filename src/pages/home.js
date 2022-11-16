@@ -1,17 +1,19 @@
 import React from 'react'
 import Herosection from '../components/herosection'
 import Sponsors from '../components/sponsors'
-import Community from '../components/community'
+//import Community from '../components/community'
 import Nfts from '../components/nfts'
+import Modal from '../components/modal'
 
 const Home = () => {
    return (
-    <>
-    <Herosection />
-    <Sponsors />
-    <Nfts/>
-    </>
-   )
+     <>
+       <Modal />
+       <Herosection />
+       <Sponsors />
+       <Nfts />
+     </>
+   );
 }
 
 export default Home

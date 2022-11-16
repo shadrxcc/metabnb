@@ -19,11 +19,13 @@ html {
 header {
   display: flex;
   align-items: center;
-  position: sticky;
+  position: fixed;
   width: 100%;
   padding-top: 15px;
   justify-content: space-around;
   background: white;
+  top: 0px;
+    z-index: 999;
 }
 
 a.navlink {
@@ -69,6 +71,7 @@ img#metabnb_logo {
   list-style: none;
   text-align: center;
   justify-content: end;
+  align-items: inherit;
 }
 
 .mobile-menu-icon {
@@ -224,6 +227,11 @@ color: white;
     display: block;
     right: 20px;
   }
+
+.dflex {
+  flex-direction: column-reverse;
+}
+
 .search{
     border-radius: 8px 8px 8px 8px;
     width: 100%;
@@ -292,6 +300,7 @@ color: white;
     width: 38.5%
   }
 
+
   /*#hero-section {
     flex-direction: column;
   }*/
@@ -312,6 +321,10 @@ height: 148px;
 font-size: 46px;
   }
 
+  a#navlink {
+    position: relative;
+    bottom: 10px;
+}
   /*#search-btn {
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
     border-radius: 0px 8px 8px 0px;
@@ -379,6 +392,10 @@ height: 459px;
     border-radius: 8px 0px 0px 8px;
     padding: 1em 15.5em 1em 1em;
 }*/
+a#navlink {
+    position: relative;
+    bottom: 10px;
+}
 
 #descripttion {
   width: 636px;

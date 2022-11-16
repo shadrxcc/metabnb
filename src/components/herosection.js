@@ -10,7 +10,7 @@ import heroimg from '../assets/clusteredimg.png'
 const Herosection = () => {
   return (
     <div className="container mt-2 pt-3 text-center">
-      <div className="row align-items-center">
+      <div className="row d-flex dflex align-items-center">
         <div className="col-lg py-4">
           <h1 id="heading" className="text-lg-start text-md-start">
             Rent a <span className="colo">Place</span> away from{" "}
