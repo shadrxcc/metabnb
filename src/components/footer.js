@@ -1,9 +1,9 @@
-import React from 'react'
-import '../styles/footer.css'
-import metalogo from '../assets/metabnbwhite.svg'
-import fb from '../assets/facebook.svg'
-import ig from '../assets/instagram.svg'
-import tw from '../assets/twitter.svg'
+import React from "react";
+import "../styles/footer.css";
+import metalogo from "../assets/metabnbwhite.svg";
+import fb from "../assets/facebook.svg";
+import ig from "../assets/instagram.svg";
+import tw from "../assets/twitter.svg";
 
 function Footer() {
   return (
@@ -22,21 +22,21 @@ function Footer() {
           </div>
         </div>
         <div className="col-md pt-2 text-start">
-          <h5 className='pb-3'>Community</h5>
+          <h5 className="pb-3">Community</h5>
           <p className="footer-links">NFT</p>
           <p className="footer-links">Tokens</p>
           <p className="footer-links">Landlords</p>
           <p className="footer-links">Discord</p>
         </div>
         <div className="col-md pt-2 text-start">
-          <h5 className='pb-3'>Places</h5>
+          <h5 className="pb-3">Places</h5>
           <p className="footer-links">Castle</p>
           <p className="footer-links">Farm</p>
           <p className="footer-links">Beach</p>
           <p className="footer-links">Learn more</p>
         </div>
         <div className="col-md pt-2 text-start">
-          <h5 className='pb-3'>About us</h5>
+          <h5 className="pb-3">About us</h5>
           <p className="footer-links">Road map</p>
           <p className="footer-links">Creators</p>
           <p className="footer-links">Career</p>
@@ -52,4 +52,4 @@ function Footer() {
   );
 }
 
-export default Footer
+export default Footer;

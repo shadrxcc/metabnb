@@ -1,5 +1,5 @@
-import React from 'react'
-import heroimg from '../assets/clusteredimg.png'
+import React from "react";
+import heroimg from "../assets/clusteredimg.png";
 //import Box from "@mui/material/Box";
 //import Paper from "@mui/material/Paper";
 //import Grid from "@mui/material/Grid";
@@ -13,9 +13,9 @@ const Herosection = () => {
       <div className="row d-flex dflex align-items-center">
         <div className="col-lg py-4">
           <h1 id="heading" className="text-lg-start text-md-start">
-            Rent a <span className="colo">Place</span> away from{" "}
-            <span className="colo">Home</span> in the{" "}
-            <span className="colo">Metaverse</span>
+            Rent a <span className="purple">Place</span> away from{" "}
+            <span className="purple">Home</span> in the{" "}
+            <span className="purple">Metaverse</span>
           </h1>
           <p id="description" className="text-lg-start text-md-start">
             We provide you access to luxury and affordable houses in the
@@ -37,6 +37,6 @@ const Herosection = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Herosection
+export default Herosection;

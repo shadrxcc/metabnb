@@ -43,7 +43,7 @@ const Header = () => {
           Connect Wallet
         </button>
       </ul>
-      
+
       <button className="mobile-menu-icon" onClick={() => setMobile(!Mobile)}>
         {Mobile ? <CloseIcon /> : <MenuIcon />}
       </button>

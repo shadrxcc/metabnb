@@ -1,6 +1,6 @@
-import React from 'react'
-import { Icon } from '@iconify/react';
-import walletconnect from '../assets/walletconnect.png'
+import React from "react";
+import { Icon } from "@iconify/react";
+import walletconnect from "../assets/walletconnect.png";
 import mtmask from "../assets/metamask.png";
 
 function Modal() {
@@ -68,4 +68,4 @@ function Modal() {
   );
 }
 
-export default Modal
+export default Modal;

@@ -1,0 +1,60 @@
+.crd {
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+/* FADE */
+
+border: 1px solid #D7D7D7;
+border-radius: 15px;
+padding: 10px;
+}
+
+.community-text {
+    font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.crdp {
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 13px;
+/* identical to box height, or 110% */
+
+
+/* text black */
+
+color: #434343;
+}
+
+.crdt {
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+/* identical to box height, or 110% */
+
+
+/* text black */
+
+color: #434343;
+
+}
+
+.stat {
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+/* identical to box height, or 110% */
+
+
+/* text black */
+
+color: #434343;
+
+}

@@ -1,7 +1,7 @@
-import React from 'react'
-import mbtoken from '../assets/MBTOKEN.svg'
-import metamask from '../assets/METAMASK.svg'
-import opensea from '../assets/OPENSEA.svg'
+import React from "react";
+import mbtoken from "../assets/MBTOKEN.svg";
+import metamask from "../assets/METAMASK.svg";
+import opensea from "../assets/OPENSEA.svg";
 
 const Sponsors = () => {
   return (
@@ -31,6 +31,6 @@ const Sponsors = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Sponsors
+export default Sponsors;
